@@ -14,18 +14,18 @@ st.set_page_config(
 
 with st.sidebar:
     app = option_menu(
-                            menu_title="Govt Job",
-                            options=['Home',
-                                    'Latest Job',
-                                    'Admit Card',
-                                    'Results'
-                                    ],
-                                    icons=[ 'house-fill',
-                                    'card-text',
-                                    'person-vcard',
-                                    'journal'],
-                                    menu_icon="bookmark-star"
-                                )
+                    menu_title="Govt Job",
+                    options=['Home',
+                            'Latest Job',
+                            'Admit Card',
+                            'Results'
+                            ],
+                            icons=[ 'house-fill',
+                            'card-text',
+                            'person-vcard',
+                            'journal'],
+                            menu_icon="bookmark-star"
+                        )
 if app == 'Latest Job':
     openjob()
 elif app == 'Admit Card':
