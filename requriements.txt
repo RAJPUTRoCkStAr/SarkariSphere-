@@ -40,7 +40,6 @@ st-theme
 streamlit
 streamlit-lottie
 streamlit-option-menu
-streamlit_option_menu
 tenacity
 toml
 tornado
