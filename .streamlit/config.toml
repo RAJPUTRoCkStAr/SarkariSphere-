@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#2563eb"              # Tailwind's Blue-600 (Modern + Vibrant)
+backgroundColor = "#f9fafb"           # Light Gray (almost white) for softness
+secondaryBackgroundColor = "#e0e7ff"  # Soft Indigo-100 (gentle highlight)
+textColor = "#1e293b"                 # Cool Gray-800 (modern + elegant)
+font = "sans serif"
