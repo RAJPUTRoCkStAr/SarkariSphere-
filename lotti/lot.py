@@ -10,6 +10,6 @@ def load_lottieurl(url:str):
         return None
     return r.json()
 Admit_card = load_lottiefile("./lotti/Admit_card.json")
-Front_page = load_lottiefile("./lotti/Front_page.json")
+Front_page = load_lottiefile("./lotti/front_page.json")
 job_detail = load_lottiefile("./lotti/job_detail.json")
 Result = load_lottiefile("./lotti/Result.json")
